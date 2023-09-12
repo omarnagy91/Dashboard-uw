@@ -1,243 +1,358 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Settings</title>
-    <link rel="stylesheet" href="css/normalaize.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/framwork.css">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet" />
-</head>
+    <link rel="stylesheet" href="css/normalaize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/framwork.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="page d-flex">
-        <div class="sidebar p-relative b-shadow bg-white">
-            <div class="logo mb-50 p-relative">
-                <h3 class="t-center">Omar</h3>
-            </div>
-            <i class="fa-solid fa-bars ml-10"></i>
-            <ul class="fz-14">
-                <i class="fa-solid fa-bars ml-10 mb-5"></i>
-                <li class=""><a href="index.html" class=" b-color p-10 br-10 mb-5 d-block"><i
-                            class="fa-regular fa-chart-bar fa-fw "></i><span class="ml-10">Dashboard</span> </a>
-                </li>
-                <li class=""><a href="settings.html" class="b-color  p-10 br-10 mb-5 d-block"><i
-                            class="fa-solid fa-gear fa-fw "></i><span class="ml-10">Settings</span> </a></li>
-                <li class=""><a href="profile.html" class="b-color p-10 br-10 mb-5 d-block"><i
-                            class="fa-regular fa-user fa-fw "></i><span class="ml-10">profile</span> </a></li>
-                <li class=""><a href="projects.html" class="activ b-color p-10 br-10 mb-5 d-block"><i
-                            class="fa-solid fa-diagram-project fa-fw "></i><span class="ml-10">Projects</span> </a>
-                </li>
-                <li class=""><a href="courses.html" class="b-color p-10 br-10 mb-5 d-block"><i
-                            class="fa-solid fa-graduation-cap fa-fw "></i><span class="ml-10">Corses</span> </a>
-                </li>
-                <li class=""><a href="friends.html" class="b-color p-10 br-10 mb-5 d-block"><i
-                            class="fa-regular fa-circle-user fa-fw "></i><span class="ml-10">Friends</span> </a>
-                </li>
-                <li class=""><a href="files.html" class="b-color p-10 br-10 mb-5 d-block"><i
-                            class="fa-regular fa-file fa-fw "></i><span class="ml-10">Files</span> </a></li>
-                <li class=""><a href="plans.html" class="b-color p-10 br-10 mb-5 d-block"><i
-                            class="fa-regular fa-credit-card fa-fw "></i><span class="ml-10">Plans</span> </a></li>
-            </ul>
+      <div class="sidebar p-relative b-shadow bg-white">
+        <div class="logo mb-50 p-relative">
+          <h3 class="t-center">Omar</h3>
         </div>
-        <div class="dashboard bg-main">
-            <div class="nav p-20 d-flex align justify fz-14 bg-white">
-                <div class="search b-ccc p-10 br-10">
-                    <i class="fa-solid fa-magnifying-glass gray-color"></i>
-                    <input class="tran-3" type="text" placeholder="Type A Keyword">
-                </div>
-                <div class="icon">
-                    <i class="fa-regular fa-bell fz-14"></i>
-                    <img src="images/avatar.png" alt="">
-                </div>
-            </div>
-            <h1 class="p-relative">Projects</h1>
-            <div class="projects d-grid-500-g20  ml-20 mr-20 mb-20">
-                <div class="proj br-10 ow-hidden bg-white p-20 p-relative">
-                    <h4 class="fw-n ">Elzero Dashboard</h4>
-                    <p class="fz-14 mt-15 mb-15 color-888">Elzero Dashboard Project Design And Programming And Hosting</p>
-                    <span class="date fz-13 color-888">15/10/2021</span>
-                    <div class="img">
-                        <img src="images/team-01.png" alt="">
-                        <img src="images/team-02.png" alt="">
-                        <img src="images/team-03.png" alt="">
-                        <img src="images/team-04.png" alt="">
-                        <img src="images/team-05.png" alt="">
-                    </div>
-                    <div class="skill bt-ccc mt-15 pt-15 d-flex">
-                        <span class="p-4-10 bg-eee fz-13 br-6">Programming</span>
-                        <span class="p-4-10 bg-eee fz-13 br-6">Design</span>
-                        <span class="p-4-10 bg-eee fz-13 br-6">Hosting</span>
-                        <span class="p-4-10 bg-eee fz-13 br-6">Marketing</span>
-                    </div>
-                    <div class="rate bt-ccc mt-20 pt-20 d-flex justify align">
-                        <div class="prog bg-eee br-6"><span class="height-100 bg-red d-block br-6" style="width: 50%;" data-progress="50%"></span></div>
-                        <div class="many fz-14 color-888"><i class="fa-solid fa-dollar-sign"></i> 2500</div>
-                    </div>
-
-                </div>
-                <div class="proj br-10 ow-hidden bg-white p-20 p-relative">
-                    <h4 class="fw-n ">Academy Portal</h4>
-                    <p class="fz-14 mt-15 mb-15 color-888">Academy Portal Project Design And Programming</p>
-                    <span class="date fz-13 color-888">15/6/2022</span>
-                    <div class="img">
-                        <img src="images/team-01.png" alt="">
-                        <img src="images/team-02.png" alt="">
-                        <img src="images/team-03.png" alt="">
-                    </div>
-                    <div class="skill bt-ccc mt-15 pt-15">
-                        <span class="p-4-10 bg-eee fz-13 br-6">Programming</span>
-                        <span class="p-4-10 bg-eee fz-13 br-6">Design</span>
-                    </div>
-                    <div class="rate bt-ccc mt-20 pt-20 d-flex justify align">
-                        <div class="prog bg-eee br-6"><span class="height-100 bg-green d-block br-6" style="width: 80%;" data-progress="80%"></span></div>
-                        <div class="many fz-14 color-888"><i class="fa-solid fa-dollar-sign"></i> 1800</div>
-                    </div>
-
-                </div>
-                <div class="proj br-10 ow-hidden bg-white p-20 p-relative">
-                    <h4 class="fw-n ">Chatting Application</h4>
-                    <p class="fz-14 mt-15 mb-15 color-888">Chatting Application Project Design</p>
-                    <span class="date fz-13 color-888">15/6/2022</span>
-                    <div class="img">
-                        <img src="images/team-01.png" alt="">
-                        <img src="images/team-02.png" alt="">
-                        <img src="images/team-03.png" alt="">
-                    </div>
-                    <div class="skill bt-ccc mt-15 pt-15">
-                        <span class="p-4-10 bg-eee fz-13 br-6">Design</span>
-                    </div>
-                    <div class="rate bt-ccc mt-20 pt-20 d-flex justify align">
-                        <div class="prog bg-eee br-6"><span class="height-100 bg-blue d-block br-6" style="width: 100%;" data-progress="100%"></span></div>
-                        <div class="many fz-14 color-888"><i class="fa-solid fa-dollar-sign"></i> 950</div>
-                    </div>
-                </div>
-                <div class="proj br-10 ow-hidden bg-white p-20 p-relative">
-                    <h4 class="fw-n ">Kamel Dashboard</h4>
-                    <p class="fz-14 mt-15 mb-15 color-888">Kamel Dashboard Project Design And Programming And Hosting</p>
-                    <span class="date fz-13 color-888">15/6/2022</span>
-                    <div class="img">
-                        <img src="images/team-01.png" alt="">
-                        <img src="images/team-02.png" alt="">
-                        <img src="images/team-03.png" alt="">
-                        <img src="images/team-04.png" alt="">
-                    </div>
-                    <div class="skill bt-ccc mt-15 pt-15">
-                        <span class="p-4-10 bg-eee fz-13 br-6">Programming</span>
-                        <span class="p-4-10 bg-eee fz-13 br-6">Design</span>
-                        <span class="p-4-10 bg-eee fz-13 br-6">Hosting</span>
-                        <span class="p-4-10 bg-eee fz-13 br-6">Marketing</span>
-                    </div>
-                    <div class="rate bt-ccc mt-20 pt-20 d-flex justify align">
-                        <div class="prog bg-eee br-6"><span class="height-100 bg-green d-block br-6" style="width: 60%;" data-progress="60%"></span></div>
-                        <div class="many fz-14 color-888"><i class="fa-solid fa-dollar-sign"></i> 1700</div>
-                    </div>
-
-                </div>
-                <div class="proj br-10 ow-hidden bg-white p-20 p-relative">
-                    <h4 class="fw-n ">Kamel Portal</h4>
-                    <p class="fz-14 mt-15 mb-15 color-888">Kamel Portal Project Design And Programming</p>
-                    <span class="date fz-13 color-888">15/6/2022</span>
-                    <div class="img">
-                        <img src="images/team-01.png" alt="">
-                        <img src="images/team-02.png" alt="">
-                        <img src="images/team-03.png" alt="">
-                    </div>
-                    <div class="skill bt-ccc mt-15 pt-15">
-                        <span class="p-4-10 bg-eee fz-13 br-6">Programming</span>
-                        <span class="p-4-10 bg-eee fz-13 br-6">Design</span>
-                    </div>
-                    <div class="rate bt-ccc mt-20 pt-20 d-flex justify align">
-                        <div class="prog bg-eee br-6"><span class="height-100 bg-green d-block br-6" style="width: 70%;" data-progress="70%"></span></div>
-                        <div class="many fz-14 color-888"><i class="fa-solid fa-dollar-sign"></i> 850</div>
-                    </div>
-
-                </div>
-                <div class="proj br-10 ow-hidden bg-white p-20 p-relative">
-                    <h4 class="fw-n ">Mohamed Application</h4>
-                    <p class="fz-14 mt-15 mb-15 color-888">Mohamed Application Project Design</p>
-                    <span class="date fz-13 color-888">15/6/2022</span>
-                    <div class="img">
-                        <img src="images/team-01.png" alt="">
-                        <img src="images/team-02.png" alt="">
-                        <img src="images/team-03.png" alt="">
-                    </div>
-                    <div class="skill bt-ccc mt-15 pt-15">
-                        <span class="p-4-10 bg-eee fz-13 br-6">Design</span>
-                    </div>
-                    <div class="rate bt-ccc mt-20 pt-20 d-flex justify align">
-                        <div class="prog bg-eee br-6"><span class="height-100 bg-red d-block br-6" style="width: 40%;" data-progress="40%"></span></div>
-                        <div class="many fz-14 color-888"><i class="fa-solid fa-dollar-sign"></i> 950</div>
-                    </div>
-                </div>
-                <div class="proj br-10 ow-hidden bg-white p-20 p-relative">
-                    <h4 class="fw-n ">Mohamed  Dashboard</h4>
-                    <p class="fz-14 mt-15 mb-15 color-888">Mohamed  Dashboard Project Design And Programming And Hosting</p>
-                    <span class="date fz-13 color-888">15/6/2022</span>
-                    <div class="img">
-                        <img src="images/team-01.png" alt="">
-                        <img src="images/team-02.png" alt="">
-                        <img src="images/team-03.png" alt="">
-                        <img src="images/team-04.png" alt="">
-                    </div>
-                    <div class="skill bt-ccc mt-15 pt-15">
-                        <span class="p-4-10 bg-eee fz-13 br-6">Programming</span>
-                        <span class="p-4-10 bg-eee fz-13 br-6">Design</span>
-                        <span class="p-4-10 bg-eee fz-13 br-6">Hosting</span>
-                        <span class="p-4-10 bg-eee fz-13 br-6">Marketing</span>
-                    </div>
-                    <div class="rate bt-ccc mt-20 pt-20 d-flex justify align">
-                        <div class="prog bg-eee br-6"><span class="height-100 bg-green d-block br-6" style="width: 65%;" data-progress="65%"></span></div>
-                        <div class="many fz-14 color-888"><i class="fa-solid fa-dollar-sign"></i> 1950</div>
-                    </div>
-
-                </div>
-                <div class="proj br-10 ow-hidden bg-white p-20 p-relative">
-                    <h4 class="fw-n ">Mohamed Portal</h4>
-                    <p class="fz-14 mt-15 mb-15 color-888">Mohamed Portal Project Design And Programming</p>
-                    <span class="date fz-13 color-888">15/6/2022</span>
-                    <div class="img">
-                        <img src="images/team-01.png" alt="">
-                        <img src="images/team-02.png" alt="">
-                        <img src="images/team-03.png" alt="">
-                    </div>
-                    <div class="skill bt-ccc mt-15 pt-15">
-                        <span class="p-4-10 bg-eee fz-13 br-6">Programming</span>
-                        <span class="p-4-10 bg-eee fz-13 br-6">Design</span>
-                    </div>
-                    <div class="rate bt-ccc mt-20 pt-20 d-flex justify align">
-                        <div class="prog bg-eee br-6"><span class="height-100 bg-green d-block br-6" style="width: 60%;" data-progress="60%"></span></div>
-                        <div class="many fz-14 color-888"><i class="fa-solid fa-dollar-sign"></i> 1650</div>
-                    </div>
-
-                </div>
-                <div class="proj br-10 ow-hidden bg-white p-20 p-relative">
-                    <h4 class="fw-n ">Kamel Application</h4>
-                    <p class="fz-14 mt-15 mb-15 color-888">Kamel Application Project Design</p>
-                    <span class="date fz-13 color-888">15/6/2022</span>
-                    <div class="img">
-                        <img src="images/team-01.png" alt="">
-                        <img src="images/team-02.png" alt="">
-                        <img src="images/team-03.png" alt="">
-                    </div>
-                    <div class="skill bt-ccc mt-15 pt-15">
-                        <span class="p-4-10 bg-eee fz-13 br-6">Design</span>
-                    </div>
-                    <div class="rate bt-ccc mt-20 pt-20 d-flex justify align">
-                        <div class="prog bg-eee br-6"><span class="height-100 bg-green d-block br-6" style="width: 90%;" data-progress="90%"></span></div>
-                        <div class="many fz-14 color-888"><i class="fa-solid fa-dollar-sign"></i> 950</div>
-                    </div>
-                </div>
-            </div>
+        <i class="fa-solid fa-bars ml-10"></i>
+        <ul class="fz-14">
+          <i class="fa-solid fa-bars ml-10 mb-5"></i>
+          <li class="">
+            <a href="index.html" class="b-color p-10 br-10 mb-5 d-block"
+              ><i class="fa-regular fa-chart-bar fa-fw"></i
+              ><span class="ml-10">Dashboard</span>
+            </a>
+          </li>
+          <li class="">
+            <a href="settings.html" class="b-color p-10 br-10 mb-5 d-block"
+              ><i class="fa-solid fa-gear fa-fw"></i
+              ><span class="ml-10">Settings</span>
+            </a>
+          </li>
+          <li class="">
+            <a href="profile.html" class="b-color p-10 br-10 mb-5 d-block"
+              ><i class="fa-regular fa-user fa-fw"></i
+              ><span class="ml-10">profile</span>
+            </a>
+          </li>
+          <li class="">
+            <a
+              href="projects.html"
+              class="activ b-color p-10 br-10 mb-5 d-block"
+              ><i class="fa-solid fa-diagram-project fa-fw"></i
+              ><span class="ml-10">Projects</span>
+            </a>
+          </li>
+          <li class="">
+            <a href="courses.html" class="b-color p-10 br-10 mb-5 d-block"
+              ><i class="fa-solid fa-graduation-cap fa-fw"></i
+              ><span class="ml-10">Courses</span>
+            </a>
+          </li>
+          <li class="">
+            <a href="friends.html" class="b-color p-10 br-10 mb-5 d-block"
+              ><i class="fa-regular fa-circle-user fa-fw"></i
+              ><span class="ml-10">Friends</span>
+            </a>
+          </li>
+          <li class="">
+            <a href="files.html" class="b-color p-10 br-10 mb-5 d-block"
+              ><i class="fa-regular fa-file fa-fw"></i
+              ><span class="ml-10">Files</span>
+            </a>
+          </li>
+          <li class="">
+            <a href="plans.html" class="b-color p-10 br-10 mb-5 d-block"
+              ><i class="fa-regular fa-credit-card fa-fw"></i
+              ><span class="ml-10">Plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="dashboard bg-main">
+        <div class="nav p-20 d-flex align justify fz-14 bg-white">
+          <div class="search b-ccc p-10 br-10">
+            <i class="fa-solid fa-magnifying-glass gray-color"></i>
+            <input class="tran-3" type="text" placeholder="Type A Keyword" />
+          </div>
+          <div class="icon">
+            <i class="fa-regular fa-bell fz-14"></i>
+            <img src="images/avatar.png" alt="" />
+          </div>
         </div>
+        <h1 class="p-relative">Projects</h1>
+        <div class="projects d-grid-500-g20 ml-20 mr-20 mb-20">
+          <div class="proj br-10 ow-hidden bg-white p-20 p-relative">
+            <h4 class="fw-n">Elzero Dashboard</h4>
+            <p class="fz-14 mt-15 mb-15 color-888">
+              Elzero Dashboard Project Design And Programming And Hosting
+            </p>
+            <span class="date fz-13 color-888">15/10/2021</span>
+            <div class="img">
+              <img src="images/team-01.png" alt="" />
+              <img src="images/team-02.png" alt="" />
+              <img src="images/team-03.png" alt="" />
+              <img src="images/team-04.png" alt="" />
+              <img src="images/team-05.png" alt="" />
+            </div>
+            <div class="skill bt-ccc mt-15 pt-15 d-flex">
+              <span class="p-4-10 bg-eee fz-13 br-6">Programming</span>
+              <span class="p-4-10 bg-eee fz-13 br-6">Design</span>
+              <span class="p-4-10 bg-eee fz-13 br-6">Hosting</span>
+              <span class="p-4-10 bg-eee fz-13 br-6">Marketing</span>
+            </div>
+            <div class="rate bt-ccc mt-20 pt-20 d-flex justify align">
+              <div class="prog bg-eee br-6">
+                <span
+                  class="height-100 bg-red d-block br-6"
+                  style="width: 50%"
+                  data-progress="50%"
+                ></span>
+              </div>
+              <div class="many fz-14 color-888">
+                <i class="fa-solid fa-dollar-sign"></i> 2500
+              </div>
+            </div>
+          </div>
+          <div class="proj br-10 ow-hidden bg-white p-20 p-relative">
+            <h4 class="fw-n">Academy Portal</h4>
+            <p class="fz-14 mt-15 mb-15 color-888">
+              Academy Portal Project Design And Programming
+            </p>
+            <span class="date fz-13 color-888">15/6/2022</span>
+            <div class="img">
+              <img src="images/team-01.png" alt="" />
+              <img src="images/team-02.png" alt="" />
+              <img src="images/team-03.png" alt="" />
+            </div>
+            <div class="skill bt-ccc mt-15 pt-15">
+              <span class="p-4-10 bg-eee fz-13 br-6">Programming</span>
+              <span class="p-4-10 bg-eee fz-13 br-6">Design</span>
+            </div>
+            <div class="rate bt-ccc mt-20 pt-20 d-flex justify align">
+              <div class="prog bg-eee br-6">
+                <span
+                  class="height-100 bg-green d-block br-6"
+                  style="width: 80%"
+                  data-progress="80%"
+                ></span>
+              </div>
+              <div class="many fz-14 color-888">
+                <i class="fa-solid fa-dollar-sign"></i> 1800
+              </div>
+            </div>
+          </div>
+          <div class="proj br-10 ow-hidden bg-white p-20 p-relative">
+            <h4 class="fw-n">Chatting Application</h4>
+            <p class="fz-14 mt-15 mb-15 color-888">
+              Chatting Application Project Design
+            </p>
+            <span class="date fz-13 color-888">15/6/2022</span>
+            <div class="img">
+              <img src="images/team-01.png" alt="" />
+              <img src="images/team-02.png" alt="" />
+              <img src="images/team-03.png" alt="" />
+            </div>
+            <div class="skill bt-ccc mt-15 pt-15">
+              <span class="p-4-10 bg-eee fz-13 br-6">Design</span>
+            </div>
+            <div class="rate bt-ccc mt-20 pt-20 d-flex justify align">
+              <div class="prog bg-eee br-6">
+                <span
+                  class="height-100 bg-blue d-block br-6"
+                  style="width: 100%"
+                  data-progress="100%"
+                ></span>
+              </div>
+              <div class="many fz-14 color-888">
+                <i class="fa-solid fa-dollar-sign"></i> 950
+              </div>
+            </div>
+          </div>
+          <div class="proj br-10 ow-hidden bg-white p-20 p-relative">
+            <h4 class="fw-n">Kamel Dashboard</h4>
+            <p class="fz-14 mt-15 mb-15 color-888">
+              Kamel Dashboard Project Design And Programming And Hosting
+            </p>
+            <span class="date fz-13 color-888">15/6/2022</span>
+            <div class="img">
+              <img src="images/team-01.png" alt="" />
+              <img src="images/team-02.png" alt="" />
+              <img src="images/team-03.png" alt="" />
+              <img src="images/team-04.png" alt="" />
+            </div>
+            <div class="skill bt-ccc mt-15 pt-15">
+              <span class="p-4-10 bg-eee fz-13 br-6">Programming</span>
+              <span class="p-4-10 bg-eee fz-13 br-6">Design</span>
+              <span class="p-4-10 bg-eee fz-13 br-6">Hosting</span>
+              <span class="p-4-10 bg-eee fz-13 br-6">Marketing</span>
+            </div>
+            <div class="rate bt-ccc mt-20 pt-20 d-flex justify align">
+              <div class="prog bg-eee br-6">
+                <span
+                  class="height-100 bg-green d-block br-6"
+                  style="width: 60%"
+                  data-progress="60%"
+                ></span>
+              </div>
+              <div class="many fz-14 color-888">
+                <i class="fa-solid fa-dollar-sign"></i> 1700
+              </div>
+            </div>
+          </div>
+          <div class="proj br-10 ow-hidden bg-white p-20 p-relative">
+            <h4 class="fw-n">Kamel Portal</h4>
+            <p class="fz-14 mt-15 mb-15 color-888">
+              Kamel Portal Project Design And Programming
+            </p>
+            <span class="date fz-13 color-888">15/6/2022</span>
+            <div class="img">
+              <img src="images/team-01.png" alt="" />
+              <img src="images/team-02.png" alt="" />
+              <img src="images/team-03.png" alt="" />
+            </div>
+            <div class="skill bt-ccc mt-15 pt-15">
+              <span class="p-4-10 bg-eee fz-13 br-6">Programming</span>
+              <span class="p-4-10 bg-eee fz-13 br-6">Design</span>
+            </div>
+            <div class="rate bt-ccc mt-20 pt-20 d-flex justify align">
+              <div class="prog bg-eee br-6">
+                <span
+                  class="height-100 bg-green d-block br-6"
+                  style="width: 70%"
+                  data-progress="70%"
+                ></span>
+              </div>
+              <div class="many fz-14 color-888">
+                <i class="fa-solid fa-dollar-sign"></i> 850
+              </div>
+            </div>
+          </div>
+          <div class="proj br-10 ow-hidden bg-white p-20 p-relative">
+            <h4 class="fw-n">Mohamed Application</h4>
+            <p class="fz-14 mt-15 mb-15 color-888">
+              Mohamed Application Project Design
+            </p>
+            <span class="date fz-13 color-888">15/6/2022</span>
+            <div class="img">
+              <img src="images/team-01.png" alt="" />
+              <img src="images/team-02.png" alt="" />
+              <img src="images/team-03.png" alt="" />
+            </div>
+            <div class="skill bt-ccc mt-15 pt-15">
+              <span class="p-4-10 bg-eee fz-13 br-6">Design</span>
+            </div>
+            <div class="rate bt-ccc mt-20 pt-20 d-flex justify align">
+              <div class="prog bg-eee br-6">
+                <span
+                  class="height-100 bg-red d-block br-6"
+                  style="width: 40%"
+                  data-progress="40%"
+                ></span>
+              </div>
+              <div class="many fz-14 color-888">
+                <i class="fa-solid fa-dollar-sign"></i> 950
+              </div>
+            </div>
+          </div>
+          <div class="proj br-10 ow-hidden bg-white p-20 p-relative">
+            <h4 class="fw-n">Mohamed Dashboard</h4>
+            <p class="fz-14 mt-15 mb-15 color-888">
+              Mohamed Dashboard Project Design And Programming And Hosting
+            </p>
+            <span class="date fz-13 color-888">15/6/2022</span>
+            <div class="img">
+              <img src="images/team-01.png" alt="" />
+              <img src="images/team-02.png" alt="" />
+              <img src="images/team-03.png" alt="" />
+              <img src="images/team-04.png" alt="" />
+            </div>
+            <div class="skill bt-ccc mt-15 pt-15">
+              <span class="p-4-10 bg-eee fz-13 br-6">Programming</span>
+              <span class="p-4-10 bg-eee fz-13 br-6">Design</span>
+              <span class="p-4-10 bg-eee fz-13 br-6">Hosting</span>
+              <span class="p-4-10 bg-eee fz-13 br-6">Marketing</span>
+            </div>
+            <div class="rate bt-ccc mt-20 pt-20 d-flex justify align">
+              <div class="prog bg-eee br-6">
+                <span
+                  class="height-100 bg-green d-block br-6"
+                  style="width: 65%"
+                  data-progress="65%"
+                ></span>
+              </div>
+              <div class="many fz-14 color-888">
+                <i class="fa-solid fa-dollar-sign"></i> 1950
+              </div>
+            </div>
+          </div>
+          <div class="proj br-10 ow-hidden bg-white p-20 p-relative">
+            <h4 class="fw-n">Mohamed Portal</h4>
+            <p class="fz-14 mt-15 mb-15 color-888">
+              Mohamed Portal Project Design And Programming
+            </p>
+            <span class="date fz-13 color-888">15/6/2022</span>
+            <div class="img">
+              <img src="images/team-01.png" alt="" />
+              <img src="images/team-02.png" alt="" />
+              <img src="images/team-03.png" alt="" />
+            </div>
+            <div class="skill bt-ccc mt-15 pt-15">
+              <span class="p-4-10 bg-eee fz-13 br-6">Programming</span>
+              <span class="p-4-10 bg-eee fz-13 br-6">Design</span>
+            </div>
+            <div class="rate bt-ccc mt-20 pt-20 d-flex justify align">
+              <div class="prog bg-eee br-6">
+                <span
+                  class="height-100 bg-green d-block br-6"
+                  style="width: 60%"
+                  data-progress="60%"
+                ></span>
+              </div>
+              <div class="many fz-14 color-888">
+                <i class="fa-solid fa-dollar-sign"></i> 1650
+              </div>
+            </div>
+          </div>
+          <div class="proj br-10 ow-hidden bg-white p-20 p-relative">
+            <h4 class="fw-n">Kamel Application</h4>
+            <p class="fz-14 mt-15 mb-15 color-888">
+              Kamel Application Project Design
+            </p>
+            <span class="date fz-13 color-888">15/6/2022</span>
+            <div class="img">
+              <img src="images/team-01.png" alt="" />
+              <img src="images/team-02.png" alt="" />
+              <img src="images/team-03.png" alt="" />
+            </div>
+            <div class="skill bt-ccc mt-15 pt-15">
+              <span class="p-4-10 bg-eee fz-13 br-6">Design</span>
+            </div>
+            <div class="rate bt-ccc mt-20 pt-20 d-flex justify align">
+              <div class="prog bg-eee br-6">
+                <span
+                  class="height-100 bg-green d-block br-6"
+                  style="width: 90%"
+                  data-progress="90%"
+                ></span>
+              </div>
+              <div class="many fz-14 color-888">
+                <i class="fa-solid fa-dollar-sign"></i> 950
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
